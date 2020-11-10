@@ -1,0 +1,13 @@
+const discoverFatorial = () =>{
+    const val = document.getElementById("number").value
+    const fatResult = fatorial(val)
+    const output  = document.getElementById("result")
+
+    output.innerHTML = `O fatorial de ${val} é ${fatResult}`
+}
+
+const fatorial = (value) =>{
+    if (value===1) return 1
+    if (value===1) return 1
+    return n * fatorial(n-1)
+}
